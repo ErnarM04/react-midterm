@@ -27,7 +27,7 @@ ul {
 }
 
 li {
-  flex: 1 1 20%;
+  flex: 0 0 20%;
   margin: 0 2.5%;
   width: 20%;
   display: flex;
@@ -37,6 +37,10 @@ li {
   border-radius: 5px;
   padding: 10px;
   box-sizing: border-box;
+}
+
+li:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .search {
